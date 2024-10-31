@@ -1,0 +1,50 @@
+
+@media only screen and (min-width: 550px) {
+
+
+}
+.fs-small {
+	font-size: 0.9em;
+}
+.fs-medium {
+	font-size: 1.1em;
+}
+.fs-large {
+	font-size: 1.3em;
+}
+
+.round-3 {
+	border-radius: 3px;
+}
+.round-5 {
+	border-radius: 5px;
+}
+.round-10 {
+	border-radius: 10px;
+}
+.round-full {
+	border-radius: 9999px;
+}
+
+
+.products-viewed {
+	margin-top: 10px;
+}
+.product-viewed-item {
+	display: flex;
+	column-gap: 15px;
+}
+.product-viewed-image {
+	flex-shrink: 0;
+}
+.product-viewed-image img.square {
+	object-fit: cover;
+	height: 100%;
+}
+.product-viewed-title {
+	font-weight: bold;
+	 overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
